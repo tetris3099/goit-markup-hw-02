@@ -85,16 +85,14 @@ body {
 }
 
 /* BUTTONS */
-.options {
-    color: #F5F4FA;
-    color: var(--navigate-text-name-color);
+.options{
+    background-color: #F5F4FA;
 }
 
 .options:hover,
 .options:focus {
     color: var(--stock-text-color);
     background-color: var(--accent-web-color);
-    cursor: pointer;
 }
 
 /* Cards */
@@ -144,4 +142,14 @@ body {
 .geolocation:hover,
 .geolocation:focus {
     color: var(--accent-web-color);
+}
+
+.contacts_basement {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    color: var(--contacts-and-description-color);
 }
