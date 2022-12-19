@@ -153,3 +153,8 @@ body {
         letter-spacing: 0.02em;
     color: var(--contacts-and-description-color);
 }
+
+.contacts_basement:hover,
+.contacts_basement:focus {
+    color: var(--accent-web-color);
+}
