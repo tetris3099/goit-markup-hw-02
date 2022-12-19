@@ -151,7 +151,7 @@ body {
         font-size: 14px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-    color: var(--contacts-and-description-color);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .contacts_basement:hover,
