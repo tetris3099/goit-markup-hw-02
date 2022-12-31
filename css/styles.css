@@ -1,8 +1,8 @@
 :root {
     /* fonts */
-    --logo-font:'Raleway','Sans-Serif';
+    --logo-font:'Raleway',sans-serif;
     
-    --font-text:'Roboto','Sans-Serif';
+    --font-text:'Roboto',sans-serif;
 
     /* color */
     --accent-web-color: #2196F3;
@@ -120,7 +120,6 @@ body {
 }
 
 .benefits {
-    font-family: var(--font-text);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
@@ -129,7 +128,6 @@ body {
 }
 
 .benefits_text {
-    font-family: var(--font-text);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -139,7 +137,6 @@ body {
 
 /* Заголовки 2 и 3 */
 .photo_time_sections {
-    font-family: var(--font-text);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -164,7 +161,6 @@ body {
 }
 
 .profession {
-    font-family: var(--font-text);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
