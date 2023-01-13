@@ -1,0 +1,219 @@
+:root {
+    /* fonts */
+    --logo-font:'Raleway',sans-serif;
+    
+    --font-text:'Roboto',sans-serif;
+
+    /* color */
+    --accent-web-color: #2196F3;
+    --canvas-background: #2F303A;
+    --stock-text-color: #FFFFFF;
+    --navigate-color: #212121;
+    --contacts-color: #757575;
+}
+
+/* Для всего документа */
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: var(--font-text);
+    color: var(--navigate-color);
+}
+
+/* Шапка */
+.new {
+
+}
+
+/* LOGO */
+.logo {
+    font-family: var(--logo-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.logo_web {
+    color: var(--accent-web-color);
+}
+
+/* NAVIGATE */
+.navigate {
+    
+}
+
+.list_navigate_studio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.list_navigate {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: inherit;
+    
+}
+
+.list_navigate:hover,
+.list_navigate:focus {
+    color: var(--accent-web-color);
+}
+
+/* CONTACTS */
+.contacts {
+    font-family: var(--font-text);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--contacts-color);
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--accent-web-color);
+}
+
+/* HERO */
+.hero {
+    background: var(--canvas-background);
+    
+    
+}
+
+.title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--stock-text-color);
+}
+/* BUTTON */
+.service {
+    background-color: var(--accent-web-color);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+    color: var(--stock-text-color);
+}
+
+.service:hover,
+.service:focus {
+    background: #188CE8;
+}
+
+.peculiarities {
+    color: transparent; 
+}
+
+.benefits {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    color: var(--navigate-color);
+}
+
+.benefits_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--contacts-color);
+}
+
+/* Заголовки 2 и 3 */
+.photo_time_sections {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--navigate-color);
+
+}
+
+/* Наша команда */
+.oue_time {
+    background: #F5F4FA;
+}
+
+.people_name {
+    font-family: var(--font-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--navigate-color);
+}
+
+.profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--contacts-color);
+}
+
+/* Подвал сайта */
+.basement {
+    background-color: var(--canvas-background);
+}
+
+/* LOGO */
+.logo_basement {
+    color: var(--stock-text-color);
+    font-family: var(--logo-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+/* ADRESS */
+.geolocation {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--stock-text-color);
+}
+
+.geolocation:hover,
+.geolocation:focus {
+    color: var(--accent-web-color);
+}
+
+.contacts_basement {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts_basement:hover,
+.contacts_basement:focus {
+    color: var(--accent-web-color);
+}
