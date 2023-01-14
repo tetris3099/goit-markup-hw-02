@@ -74,7 +74,6 @@ body {
 
 /* CONTACTS */
 .contacts {
-    font-family: var(--font-text);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -156,7 +155,6 @@ body {
 }
 
 .people_name {
-    font-family: var(--font-text);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
