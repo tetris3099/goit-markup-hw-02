@@ -26,6 +26,9 @@ body {
     color: var(--navigate-text-name-color);
 }
 
+address {
+    font-style: normal;
+}
 
 /* Шапка */
 .new {
@@ -116,6 +119,7 @@ body {
 
 /* Подвал сайта */
 .basement {
+    
     background-color: var(--canvas-background);
 }
 
@@ -131,8 +135,6 @@ body {
 
 /* ADRESS */
 .geolocation {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -146,13 +148,11 @@ body {
 }
 
 .contacts_basement {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .contacts_basement:hover,
