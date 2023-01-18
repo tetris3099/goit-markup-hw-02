@@ -26,6 +26,10 @@ body {
     color: var(--navigate-color);
 }
 
+address {
+    font-style: normal;
+}
+
 /* Шапка */
 .new {
 
@@ -111,6 +115,8 @@ body {
     line-height: 1.8;
     letter-spacing: 0.06em;
     color: var(--stock-text-color);
+    border-radius: 4px;
+    padding: 10px 32px;
 }
 
 .service:hover,
@@ -187,8 +193,6 @@ body {
 
 /* ADRESS */
 .geolocation {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -202,8 +206,6 @@ body {
 }
 
 .contacts_basement {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.2;
